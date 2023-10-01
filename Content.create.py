@@ -2,8 +2,7 @@ import openai
 import time
 from openai.error import RateLimitError
 
-# Set your OpenAI API key
-api_key = "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"
+api_key = "your API Key"
 openai.api_key = api_key
 
 def generate_content(prompt):
